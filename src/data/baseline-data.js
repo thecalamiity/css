@@ -185,6 +185,7 @@ export const properties = new Map([
 	["scale", "10:2022"],
 	["translate", "10:2022"],
 	["initial-letter", "0:"],
+	["interactivity", "0:"],
 	["interpolate-size", "0:"],
 	["isolation", "10:2020"],
 	["direction", "10:2015"],
@@ -341,6 +342,7 @@ export const properties = new Map([
 	["print-color-adjust", "5:2025"],
 	["quotes", "10:2015"],
 	["reading-flow", "0:"],
+	["reading-order", "0:"],
 	["resize", "0:"],
 	["ruby-align", "5:2024"],
 	["ruby-overhang", "0:"],
@@ -717,7 +719,6 @@ export const selectors = new Map([
 	["nth-last-of-type", "10:2015"],
 	["nth-of-type", "10:2015"],
 	["only-of-type", "10:2015"],
-	["closed", "0:"],
 	["open", "0:"],
 	["first", "5:2023"],
 	["left", "0:"],
@@ -1912,6 +1913,13 @@ export const propertyValues = new Map([
 	["scale", new Map([["none", "10:2022"]])],
 	["translate", new Map([["none", "10:2022"]])],
 	["initial-letter", new Map([["normal", "0:"]])],
+	[
+		"interactivity",
+		new Map([
+			["auto", "0:"],
+			["inert", "0:"],
+		]),
+	],
 	[
 		"interpolate-size",
 		new Map([
